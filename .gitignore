@@ -1,0 +1,46 @@
+# Логи и зависимости
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Среда разработки
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Кэш
+.cache/
+dist/
+out/
+build/
+coverage/
+
+# Экземпляры процессов
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Секретные файлы
+.env
+.env.local
+.env.*.local
+config.js
+
+# Git-игнор для IDE и ОС
+Thumbs.db
+desktop.ini
+
+# Linux и Mac мусор
+*.log
+*.bak
+*.tmp
+.npm/
+.npmrc
+.eslintcache
